@@ -1,0 +1,13 @@
+locals {
+  # Block body
+  local_variable_name = <EXPRESSION OR VALUE>
+  local_variable_name = <EXPRESSION OR VALUE>
+}
+
+EXAMPLE 
+
+locals {
+  time = timestamp()
+  application = "api_server"
+  server_name = "${var.account}-${local.application}"
+}

@@ -1,6 +1,4 @@
 provider "aws" {
-    access_key = <iam-user-access_key>
-    secret_key = <iam-user-secret_key>
     region = "us-east-1"
 }
 
