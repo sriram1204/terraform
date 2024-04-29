@@ -1,0 +1,13 @@
+variable “<VARIABLE_NAME>” {
+  # Block body
+  type = <VARIABLE_TYPE>
+  description = <DESCRIPTION>
+  default = <EXPRESSION>
+  sensitive = <BOOLEAN>
+  validation = <RULES>
+}
+
+
+Task 1: Add a new VPC resource block with static values
+Task 2: Define new variable blocks to declare new variables
+Task 3: Modify the value of the variable by adding defaults

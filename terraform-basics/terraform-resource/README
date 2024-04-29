@@ -1,0 +1,11 @@
+# Template
+<BLOCK TYPE> "<BLOCK LABEL>" "<BLOCK LABEL>"   {
+  # Block body
+  <IDENTIFIER> = <EXPRESSION> # Argument
+}
+
+Task 1: View and understand an existing resource block in Terraform
+Task 2: Add a new resource to deploy an Amazon S3 bucket
+Task 3: Create a new AWS security group
+Task 4: Configure a resource from the random provider
+Task 5: Update the Amazon S3 bucket to use the random ID
