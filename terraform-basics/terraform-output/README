@@ -1,0 +1,16 @@
+output “<NAME>” {
+  # Block body
+  value= <EXPRESSION> # Argument
+}
+
+output "web_server_ip" {
+  description = "Public IP Address of Web Server on EC2"
+  value       = aws_instance.web_server.public_ip
+  sensitive   = true
+}
+
+Task 1: Add Output Block to Export Attributes of Resources
+Task 2: Output Meaningful Data using Static and Dynamic Values
+Task 3: Generate Machine-Readable Outputs in JSON
+
+terraform output -JSON
