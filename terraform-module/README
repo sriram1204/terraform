@@ -1,0 +1,7 @@
+Task 1: Source a local Terraform module
+Task 2: Explore the Public Module Registry and install a module
+Task 3: Source a module from GitHub
+
+Commands Learnt
+terraform validate
+terraform fmt -recursive
