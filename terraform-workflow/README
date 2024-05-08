@@ -1,0 +1,5 @@
+Task 1: Initialize a Terraform working directory
+Task 2: Re-initialize after adding a new provider
+Task 3: Re-initialize after adding a new module
+Task 4: Re-initialize after modifying a Terraform backend
+Task 5: Other initialization steps/considerations
