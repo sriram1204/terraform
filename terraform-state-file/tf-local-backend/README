@@ -1,0 +1,54 @@
+Task 1: Show current state (CLI Operation)
+Task 2: Show state file location
+Task 3: View/Update Terraform local backend configuration
+Task 4: Modify, Plan and Execute Changes
+Task 5: Show New State and State Backup
+
+terraform show
+
+terraform state list
+
+data.aws_ami.ubuntu
+data.aws_availability_zones.available
+data.aws_region.current
+aws_eip.nat_gateway_eip
+aws_instance.ubuntu_server
+aws_instance.web_server
+aws_internet_gateway.internet_gateway
+aws_key_pair.generated
+aws_nat_gateway.nat_gateway
+aws_route_table.private_route_table
+aws_route_table.public_route_table
+aws_route_table_association.private["private_subnet_1"]
+aws_route_table_association.private["private_subnet_2"]
+aws_route_table_association.private["private_subnet_3"]
+aws_route_table_association.public["public_subnet_1"]
+aws_route_table_association.public["public_subnet_2"]
+aws_route_table_association.public["public_subnet_3"]
+aws_security_group.ingress-ssh
+aws_security_group.vpc-ping
+aws_security_group.vpc-web
+aws_subnet.private_subnets["private_subnet_1"]
+aws_subnet.private_subnets["private_subnet_2"]
+aws_subnet.private_subnets["private_subnet_3"]
+aws_subnet.public_subnets["public_subnet_1"]
+aws_subnet.public_subnets["public_subnet_2"]
+aws_subnet.public_subnets["public_subnet_3"]
+aws_vpc.vpc
+local_file.private_key_pem
+random_string.random
+tls_private_key.generated
+
+|-- main.tf
+|-- MyAWSKey.pem
+|-- terraform.tf
+|-- terraform.tfstate
+|-- terraform.tfstate.backup
+|-- terraform.tfstate.d
+|-- |-- development
+      |-- terraform.tfstate
+      |-- terraform.tfstate.backup
+|-- variables.tf
+
+terraform state list
+terraform state show aws_instance.web_server_2
