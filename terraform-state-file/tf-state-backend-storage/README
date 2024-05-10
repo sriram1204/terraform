@@ -1,0 +1,12 @@
+Task 1: Authentication: S3 Standard Backend
+Task 2: Authentication: Remote Enhanced Backend
+
+terraform {
+  backend "s3" {
+    bucket = "myterraformstate"
+    key    = "path/to/my/key"
+    region = "us-east-1"
+  }
+}
+
+terraform state list
